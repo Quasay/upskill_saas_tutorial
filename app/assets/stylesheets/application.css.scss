@@ -38,30 +38,19 @@ h1 , h2 , h3 {
     border: none;
 }
     
-.navbar-default .navbar-brand{
-    color:white;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color:white;
+    &:hover{
+        color: white;
+        opacity: 0.75;
+    }
 }
 
 
 
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-    color: white;
-    opacity: 0.75;
-}
-
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
-    color: white;
-    opacity: 0.75 ;
-}
-
-
-
+//Home Page Styles 
 .home-callout {
     color: white;
     margin-top: -20px;
